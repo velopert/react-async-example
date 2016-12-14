@@ -1,14 +1,12 @@
 import React, {Component} from 'react';
-import { Container } from 'semantic-ui-react';
-import { PostWrapper, Navigator, Post } from '../../components';
+import { PostWrapper } from '../../components';
 
 
 class PostContainer extends Component {
     render() {
         return (
             <PostWrapper>
-                <Navigator/>
-                <Post/>
+                Hello, Post
             </PostWrapper>
         );
     }
