@@ -1,5 +1,9 @@
 .CommentList {
-    background-color: #e1e1e1; 
+    background-color: #F0F0F0;
     padding: 1rem;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
 }
