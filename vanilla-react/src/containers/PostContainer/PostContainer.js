@@ -1,15 +1,14 @@
 import React, {Component} from 'react';
 import { Container } from 'semantic-ui-react';
-import { Navigator, Post } from '../../components';
-import './PostContainer.css';
+import { PostWrapper, Navigator, Post } from '../../components';
 
 class PostContainer extends Component {
     render() {
         return (
-            <div className="PostContainer">
+            <PostWrapper>
                 <Navigator/>
                 <Post/>
-            </div>
+            </PostWrapper>
         );
     }
 }
