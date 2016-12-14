@@ -1,26 +1,26 @@
 import React from 'react';
 import {Button} from 'semantic-ui-react';
-import './Navigator.css'
+import './Navigate.css'
 
-const Navigator = () => (
-    <div className="Navigator">
+const Navigate = () => (
+    <div className="Navigate">
         <Button
             color="teal"
             content="Previous"
             icon="left arrow"
             labelPosition="left"
         />
-        <div className="Navigator-page-num">
-            3
+        <div className="Navigate-page-num">
+            1
         </div>
         <Button
             color="teal"
             content="Next"
             icon="right arrow"
             labelPosition="right"
-            className="Navigator-right-button"
+            className="Navigate-right-button"
         /> 
     </div>
 );
 
-export default Navigator;
+export default Navigate;
