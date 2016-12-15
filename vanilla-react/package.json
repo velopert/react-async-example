@@ -6,6 +6,8 @@
     "react-scripts": "0.8.2"
   },
   "dependencies": {
+    "axios": "^0.15.3",
+    "promise-polyfill": "^6.0.2",
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "semantic-ui-css": "^2.2.4",
